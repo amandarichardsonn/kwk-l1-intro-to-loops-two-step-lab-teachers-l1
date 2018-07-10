@@ -39,6 +39,7 @@ def how_many_steps?
     puts steps
     if (steps % 2 == 0)
     # if its an even number(divisible by 2) then puts left
+    # % keeps the remainder and divides it first
     # == 0 is for, is an even number because there is no remainder
       puts 'Left'
     else
@@ -65,6 +66,6 @@ def break_dance
   end
 <<<<<<< HEAD
 end
-=======
+======= 
 end
 >>>>>>> 7f3bfa057b7ee8ceea2086a0ef0ca91e17756e11
