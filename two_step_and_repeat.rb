@@ -48,7 +48,7 @@ def how_many_steps?
     sleep(0.5)
   end
 end
-how_many_steps
+how_many_steps?
 
 def break_dance
   steps = 0
@@ -67,6 +67,6 @@ def break_dance
   end
 <<<<<<< HEAD
 end
-======= 
+=======
 end
 >>>>>>> 7f3bfa057b7ee8ceea2086a0ef0ca91e17756e11
