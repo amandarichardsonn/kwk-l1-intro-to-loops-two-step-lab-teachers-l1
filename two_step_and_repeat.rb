@@ -39,6 +39,7 @@ def how_many_steps?
     puts steps
     if (steps % 2 == 0)
     # if its an even number(divisible by 2) then puts left
+    # == 0 is for, is an even number because there is no remainder
       puts 'Left'
     else
       puts 'Right'
