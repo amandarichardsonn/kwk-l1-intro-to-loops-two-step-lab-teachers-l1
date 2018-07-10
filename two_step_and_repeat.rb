@@ -38,6 +38,7 @@ def how_many_steps?
     steps += 1
     puts steps
     if (steps % 2 == 0)
+    # if its an even number(divisible by 2) then puts left
       puts 'Left'
     else
       puts 'Right'
@@ -61,4 +62,8 @@ def break_dance
       break
     end
   end
+<<<<<<< HEAD
 end
+=======
+end
+>>>>>>> 7f3bfa057b7ee8ceea2086a0ef0ca91e17756e11
